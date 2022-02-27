@@ -2,62 +2,163 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Florence Kotohoyoh</title>
-  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+  <link href="css/styles.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
   <div class="container">
-    <div>
+    <div class="container">
       <h1>Hey! I am Florence Kotohoyoh</h1>
       <p>A software Developer</p>
       <p>Welcome to my portfolio</p>
-      <img src="images/flo.jpg" alt="Florence at her work desk">
+      <img src="" alt="Florence at her work desk" />
     </div>
     <div>
-      <h2>Projects</h2>
-      <p>These are some of the projects I have worked on.</p>
-      <div>
-        <a href="https://kots.events">
-          <h4>Kots Events Website</h4>
-        </a>
-        <img src="images/kots-website.png" alt="screenshot of kots website homepage" />
-        <p>Used HTML, CSS and JavaScript to build a responsive website for Kots Events</p>
-      </div>
-      <div>
-        <h4>The Nightngale Blog</h4>
-        <img class="img-fluid" src="images/blog.png" alt="Screenshot of The Nightngale Blog" />
-        <p>I write <em>coding tutorials</em> for concepts I had a hard time understanding.</p>
-      </div>
-      <div>
-        <h4>Resume</h4>
-        <img class="img-fluid" src="images/resume1.png" alt="Screenshot of resume" />
-        <img class="img-fluid" src="images/resume2.png" alt="Screenshot of resume" />
-        <p>Used HTML, CSS and Bootstrap to write my resume.</p>
-      </div>
-      <div>
-        <h4>Band Website</h4>
-        <img class="img-fluid" src="images/5sos.png" alt="Screenshot of band website" />
-        <p>5SOS band website built with HTML and CSS</p>
-      </div>
-      <div>
-        <h4>Resort Website</h4>
-        <img class="img-fluid" src="images/resort-homepage.png" alt="screenshot of resort homepage" />
-        <p>The Nightngale website built with HTML and CSS</p>
-      </div>
+      <!-- Portfolio Grid-->
+      <section class="page-section bg-light" id="portfolio">
+        <div class="container">
+          <div class="text-center">
+            <h2 class="section-heading text-uppercase">Portfolio</h2>
+            <h3 class="section-subheading text-muted">
+              These are some of the projects I have worked on.
+            </h3>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-sm-6 mb-4">
+              <!-- Portfolio item 1-->
+              <div class="portfolio-item">
+                <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                  <div class="portfolio-hover">
+                    <div class="portfolio-hover-content">
+                      <i class="fas fa-plus fa-3x"></i>
+                    </div>
+                  </div>
+                  <img class="img-fluid" src="images/kots-website.png" alt="..." />
+                </a>
+                <div class="portfolio-caption">
+                  <div class="portfolio-caption-heading">
+                    Kots Events Website
+                  </div>
+                  <div class="portfolio-caption-subheading text-muted">
+                    Illustration
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-4">
+              <!-- Portfolio item 2-->
+              <div class="portfolio-item">
+                <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                  <div class="portfolio-hover">
+                    <div class="portfolio-hover-content">
+                      <i class="fas fa-plus fa-3x"></i>
+                    </div>
+                  </div>
+                  <img class="img-fluid" src="assets/img/portfolio/2.jpg" alt="..." />
+                </a>
+                <div class="portfolio-caption">
+                  <div class="portfolio-caption-heading">Explore</div>
+                  <div class="portfolio-caption-subheading text-muted">
+                    Graphic Design
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-4">
+              <!-- Portfolio item 3-->
+              <div class="portfolio-item">
+                <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                  <div class="portfolio-hover">
+                    <div class="portfolio-hover-content">
+                      <i class="fas fa-plus fa-3x"></i>
+                    </div>
+                  </div>
+                  <img class="img-fluid" src="assets/img/portfolio/3.jpg" alt="..." />
+                </a>
+                <div class="portfolio-caption">
+                  <div class="portfolio-caption-heading">Finish</div>
+                  <div class="portfolio-caption-subheading text-muted">
+                    Identity
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+              <!-- Portfolio item 4-->
+              <div class="portfolio-item">
+                <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
+                  <div class="portfolio-hover">
+                    <div class="portfolio-hover-content">
+                      <i class="fas fa-plus fa-3x"></i>
+                    </div>
+                  </div>
+                  <img class="img-fluid" src="assets/img/portfolio/4.jpg" alt="..." />
+                </a>
+                <div class="portfolio-caption">
+                  <div class="portfolio-caption-heading">Lines</div>
+                  <div class="portfolio-caption-subheading text-muted">
+                    Branding
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+              <!-- Portfolio item 5-->
+              <div class="portfolio-item">
+                <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
+                  <div class="portfolio-hover">
+                    <div class="portfolio-hover-content">
+                      <i class="fas fa-plus fa-3x"></i>
+                    </div>
+                  </div>
+                  <img class="img-fluid" src="assets/img/portfolio/5.jpg" alt="..." />
+                </a>
+                <div class="portfolio-caption">
+                  <div class="portfolio-caption-heading">Southwest</div>
+                  <div class="portfolio-caption-subheading text-muted">
+                    Website Design
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <!-- Portfolio item 6-->
+              <div class="portfolio-item">
+                <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
+                  <div class="portfolio-hover">
+                    <div class="portfolio-hover-content">
+                      <i class="fas fa-plus fa-3x"></i>
+                    </div>
+                  </div>
+                  <img class="img-fluid" src="assets/img/portfolio/6.jpg" alt="..." />
+                </a>
+                <div class="portfolio-caption">
+                  <div class="portfolio-caption-heading">Window</div>
+                  <div class="portfolio-caption-subheading text-muted">
+                    Photography
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
     <div>
       <h2>About Me</h2>
       <h3>Software Development Journey</h3>
       <div>
         <p class="text-muted">
-          I started my journey in tech by participating in robotics and Technovation competitions. I learnt the basics of 
-          programming during this period. I also learned to work in a team. A crucial skill every software developer should have. 
-          This sparked my interest and influenced my decision to take a career in tech!
+          I started my journey in tech by participating in robotics and
+          Technovation competitions. I learnt the basics of programming during
+          this period. I also learned to work in a team. A crucial skill every
+          software developer should have. This sparked my interest and
+          influenced my decision to take a career in tech!
         </p>
       </div>
       <div>
