@@ -4,3 +4,6 @@
   object-fit:cover;
   border-radius:75%;
 }
+header.masthead {
+  background-image: url("/images/header-bg.jpg");
+}
