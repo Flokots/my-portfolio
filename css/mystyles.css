@@ -7,3 +7,10 @@
 header.masthead {
   background-image: url("../images/background.jpg");
 }
+.btn-color {
+  background-color: #F4A701;
+}
+.timeline > li .timeline-image {
+  background-color: #F4A701;
+  color: black;
+}
