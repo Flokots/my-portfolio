@@ -5,8 +5,14 @@
   border-radius:75%;
 }
 header.masthead {
-  background-image: url("../images/background.jpg");
+  background-image: url("../images/headset.jpg");
 }
+.masthead-subheading {
+  color: white;
+  font-family: "Montserrat";
+  font-weight: 60;
+}
+header
 .btn-color {
   background-color: #F4A701;
 }
