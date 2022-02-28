@@ -5,5 +5,5 @@
   border-radius:75%;
 }
 header.masthead {
-  background-image: url("/images/header-bg.jpg");
+  background-image: url("../images/background.jpg");
 }
