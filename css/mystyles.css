@@ -14,3 +14,6 @@ header.masthead {
   background-color: #F4A701;
   color: black;
 }
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+  color: black;
+}
