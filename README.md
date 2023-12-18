@@ -6,4 +6,4 @@ Florence Kotohoyoh's Portfolio built from HTML, custom CSS and StartBootstrap's 
 [Florence Kotohoyoh](https://Flokots.github.io/my-portfolio)
 ### License ###
 [MIT](https://choosealicense.com/licenses/mit) 
-Copyright (c) 2022
+Copyright (c) 2023
